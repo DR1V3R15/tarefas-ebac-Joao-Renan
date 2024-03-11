@@ -8,20 +8,15 @@ package Conversão;
 
 public class Conversão {
 
-    private static int médio = 32;
+    private static long médio = 32;
 
-    private static long grande = médio * 2;
-
-    private static short pequeno = 16;
-
-    private static byte pequeniníssimo = (byte) pequeno;
+    private static Long grande = médio * 2;
 
     public static void testeDeConversão() {
 
         System.out.println(médio);
         System.out.println(grande);
-        System.out.println(pequeno);
-        System.out.println(pequeniníssimo);
+
     }
 
     public static void main(String args[]) {
