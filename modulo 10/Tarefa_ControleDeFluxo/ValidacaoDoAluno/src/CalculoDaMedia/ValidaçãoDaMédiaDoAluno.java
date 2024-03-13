@@ -7,7 +7,7 @@ public class ValidaçãoDaMédiaDoAluno {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        System.out.print("Agora você caluculará sua média, coloque sua nota 1: ");
+        System.out.print("Agora você calculará sua média, coloque sua nota 1: ");
         int nota1 = s.nextInt();
         System.out.print("Ok, agora sua nota 2: ");
         int nota2 = s.nextInt();
