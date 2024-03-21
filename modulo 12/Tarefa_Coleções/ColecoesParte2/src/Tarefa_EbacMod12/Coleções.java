@@ -1,15 +1,14 @@
-package Coleções;
+package Tarefa_EbacMod12;
 
 import java.util.*;
 
 /**
  * @author João Renan
  *
- * Exercício Módulo 11 Ebac - Parte 2
+ * Exercício Módulo 12 Ebac
  */
 
-public class Parte2 {
-
+public class Coleções {
     public static void main(String[] args) {
         System.out.println("*** Lista De Homens e Mulheres ***");
 
@@ -33,8 +32,10 @@ public class Parte2 {
                 listaDeMulheres.add(nome);
             }
         }
+        Collections.sort(lista);
         Collections.sort(listaDeHomens);
         Collections.sort(listaDeMulheres);
+        System.out.println("Lista de todas as pessoas: " + lista);
         System.out.println("Lista de Homens: " + listaDeHomens);
         System.out.println("Lista de Mulheres: " + listaDeMulheres);
     }
