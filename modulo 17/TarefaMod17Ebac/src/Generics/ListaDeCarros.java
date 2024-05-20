@@ -7,18 +7,18 @@ package Generics;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class ListaDeCarros {
+public class ListaDeCarros {
 
     public static void main(String[] args) {
         Honda honda = new Honda();
         Toyota toyota = new Toyota();
         Mazda mazda = new Mazda();
 
-        List<String> listaDeCarros = new ArrayList<>();
+        List<Carro> listaDeCarros = new ArrayList<>();
 
-        listaDeCarros.add(honda.toString());
-        listaDeCarros.add(toyota.toString());
-        listaDeCarros.add(mazda.toString());
+        listaDeCarros.add(honda);
+        listaDeCarros.add(toyota);
+        listaDeCarros.add(mazda);
 
         System.out.println(listaDeCarros);
     }
