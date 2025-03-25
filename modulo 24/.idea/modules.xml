@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TarefaMod24Ebac/TarefaMod24Ebac.iml" filepath="$PROJECT_DIR$/TarefaMod24Ebac/TarefaMod24Ebac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TarefaMod24Ebac/br.com.jrenan/br.com.jrenan.iml" filepath="$PROJECT_DIR$/TarefaMod24Ebac/br.com.jrenan/br.com.jrenan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulo 24.iml" filepath="$PROJECT_DIR$/modulo 24.iml" />
+    </modules>
+  </component>
+</project>
