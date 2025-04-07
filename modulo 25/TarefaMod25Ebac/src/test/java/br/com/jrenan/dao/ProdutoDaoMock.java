@@ -6,6 +6,13 @@ import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 
 import java.util.Collection;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ProdutoDaoMock implements IProdutoDAO {
 
     @Override

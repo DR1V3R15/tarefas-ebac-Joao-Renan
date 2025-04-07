@@ -22,6 +22,13 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class VendaDAOTest {
 
     private IVendaDAO vendaDao;
@@ -43,13 +50,13 @@ public class VendaDAOTest {
     @Before
     public void init() throws TipoChaveNaoEncontradaException {
         this.cliente = cadastrarCliente();
-        this.produto = cadastrarProduto("A1", BigDecimal.TEN);
+        this.produto = cadastrarProduto("1", BigDecimal.TEN);
     }
 
 
     @Test
     public void pesquisar() throws TipoChaveNaoEncontradaException {
-        Venda venda = criarVenda("A1");
+        Venda venda = criarVenda("1");
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
         Venda vendaConsultada = vendaDao.consultar(venda.getCodigo());
@@ -59,7 +66,7 @@ public class VendaDAOTest {
 
     @Test
     public void salvar() throws TipoChaveNaoEncontradaException {
-        Venda venda = criarVenda("A2");
+        Venda venda = criarVenda("2");
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
         assertTrue(venda.getValorTotal().equals(BigDecimal.valueOf(20)));
@@ -69,7 +76,7 @@ public class VendaDAOTest {
 
     @Test
     public void cancelarVenda() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A3";
+        String codigoVenda = "3";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -86,7 +93,7 @@ public class VendaDAOTest {
 
     @Test
     public void adicionarMaisProdutosDoMesmo() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A4";
+        String codigoVenda = "4";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -103,7 +110,7 @@ public class VendaDAOTest {
 
     @Test
     public void adicionarMaisProdutosDiferentes() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A5";
+        String codigoVenda = "5";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -124,7 +131,7 @@ public class VendaDAOTest {
 
     @Test
     public void salvarProdutoExistente() throws TipoChaveNaoEncontradaException {
-        Venda venda = criarVenda("A6");
+        Venda venda = criarVenda("6");
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
 
@@ -135,7 +142,7 @@ public class VendaDAOTest {
 
     @Test
     public void removerProduto() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A7";
+        String codigoVenda = "7";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -160,7 +167,7 @@ public class VendaDAOTest {
 
     @Test
     public void removerApenasUmProduto() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A8";
+        String codigoVenda = "8";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -185,7 +192,7 @@ public class VendaDAOTest {
 
     @Test
     public void removerTodosProdutos() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A9";
+        String codigoVenda = "9";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -210,7 +217,7 @@ public class VendaDAOTest {
 
     @Test
     public void finalizarVenda() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A10";
+        String codigoVenda = "10";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);
@@ -226,7 +233,7 @@ public class VendaDAOTest {
 
     @Test(expected = UnsupportedOperationException.class)
     public void tentarAdicionarProdutosVendaFinalizada() throws TipoChaveNaoEncontradaException {
-        String codigoVenda = "A11";
+        String codigoVenda = "11";
         Venda venda = criarVenda(codigoVenda);
         Boolean retorno = vendaDao.cadastrar(venda);
         assertTrue(retorno);

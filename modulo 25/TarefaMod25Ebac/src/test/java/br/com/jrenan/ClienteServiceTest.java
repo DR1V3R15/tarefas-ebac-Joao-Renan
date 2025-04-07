@@ -10,6 +10,13 @@ import org.junit.Before;
 import org.junit.Test;
 import test.java.br.com.jrenan.dao.ClienteDaoMock;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ClienteServiceTest {
 
     private IClienteService clienteService;

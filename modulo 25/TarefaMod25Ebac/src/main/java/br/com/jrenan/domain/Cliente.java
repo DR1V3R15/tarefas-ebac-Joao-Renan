@@ -3,6 +3,13 @@ package main.java.br.com.jrenan.domain;
 import main.java.br.com.jrenan.anotação.TipoChave;
 import main.java.br.com.jrenan.dao.Persistente;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class Cliente implements Persistente {
 
     private String nome;

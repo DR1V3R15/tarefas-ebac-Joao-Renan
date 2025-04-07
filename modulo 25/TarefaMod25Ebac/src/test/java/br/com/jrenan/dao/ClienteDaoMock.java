@@ -6,6 +6,13 @@ import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 
 import java.util.Collection;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ClienteDaoMock implements IClienteDAO {
     @Override
     public Boolean cadastrar(Cliente entity) throws TipoChaveNaoEncontradaException {

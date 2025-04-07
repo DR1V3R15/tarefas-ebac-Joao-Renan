@@ -7,6 +7,13 @@ import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 import java.io.Serializable;
 import java.util.Collection;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public abstract class GenericService<T extends Persistente, E extends Serializable> implements IGenericService<T, E> {
 
     protected IGenericDAO<T,E> dao;

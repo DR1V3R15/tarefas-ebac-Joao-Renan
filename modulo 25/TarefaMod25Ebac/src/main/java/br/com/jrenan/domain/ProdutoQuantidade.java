@@ -2,6 +2,13 @@ package main.java.br.com.jrenan.domain;
 
 import java.math.BigDecimal;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ProdutoQuantidade {
 
     private Produto produto;

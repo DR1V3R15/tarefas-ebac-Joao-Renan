@@ -4,6 +4,13 @@ import main.java.br.com.jrenan.dao.IProdutoDAO;
 import main.java.br.com.jrenan.domain.Produto;
 import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ProdutoService implements IProdutoService {
 
     private IProdutoDAO produtoDAO;

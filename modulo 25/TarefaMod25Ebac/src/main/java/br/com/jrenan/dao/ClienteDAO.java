@@ -3,6 +3,13 @@ package main.java.br.com.jrenan.dao;
 import main.java.br.com.jrenan.dao.generic.GenericDAO;
 import main.java.br.com.jrenan.domain.Cliente;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO {
 
     public ClienteDAO() {

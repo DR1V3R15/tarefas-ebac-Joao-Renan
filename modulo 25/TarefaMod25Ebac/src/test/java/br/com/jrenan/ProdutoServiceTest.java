@@ -12,6 +12,13 @@ import test.java.br.com.jrenan.dao.ProdutoDaoMock;
 
 import java.math.BigDecimal;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ProdutoServiceTest {
 
     private IProdutoService produtoService;

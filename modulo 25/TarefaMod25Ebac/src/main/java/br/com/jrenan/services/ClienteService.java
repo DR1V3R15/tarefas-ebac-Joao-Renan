@@ -4,6 +4,13 @@ import main.java.br.com.jrenan.dao.IClienteDAO;
 import main.java.br.com.jrenan.domain.Cliente;
 import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ClienteService implements IClienteService {
 
     private IClienteDAO clienteDAO;

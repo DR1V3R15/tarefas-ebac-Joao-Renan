@@ -4,6 +4,13 @@ import main.java.br.com.jrenan.dao.generic.GenericDAO;
 import main.java.br.com.jrenan.domain.Venda;
 import main.java.br.com.jrenan.exceptions.TipoChaveNaoEncontradaException;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class VendaDAO extends GenericDAO<Venda, String> implements IVendaDAO {
 
     @Override

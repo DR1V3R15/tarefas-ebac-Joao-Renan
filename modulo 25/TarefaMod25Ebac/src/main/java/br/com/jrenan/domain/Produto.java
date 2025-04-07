@@ -5,6 +5,13 @@ import main.java.br.com.jrenan.dao.Persistente;
 
 import java.math.BigDecimal;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class Produto implements Persistente {
 
     private String nome;

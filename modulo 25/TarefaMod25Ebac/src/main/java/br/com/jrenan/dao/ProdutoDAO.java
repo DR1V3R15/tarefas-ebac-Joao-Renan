@@ -3,6 +3,13 @@ package main.java.br.com.jrenan.dao;
 import main.java.br.com.jrenan.dao.generic.GenericDAO;
 import main.java.br.com.jrenan.domain.Produto;
 
+/**
+ * @author João Renan
+ *
+ * Projeto 2 - Modulo 25 Ebac
+ *
+ */
+
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {
 
     public ProdutoDAO() {
